@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Onboarding status — Acme Energy</title>
+<style>
+body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #1f2328; background: #f6f8fa; margin: 0; padding: 24px; }
+.page { max-width: 960px; margin: 0 auto; background: #fff;
+  border: 1px solid #d0d7de; border-radius: 16px; padding: 28px 32px; }
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 1px; color: #656d76; }
+h1 { font-size: 26px; margin: 4px 0; }
+.meta { color: #656d76; font-size: 14px; margin: 0 0 20px; }
+.cards { display: flex; gap: 14px; flex-wrap: wrap; }
+.stat { flex: 1 1 180px; position: relative; overflow: hidden;
+  border-radius: 12px; color: #fff; padding: 16px 18px; min-height: 84px; }
+.stat .label { font-size: 12px; font-weight: 700; letter-spacing: .5px;
+  text-transform: uppercase; opacity: .9; }
+.stat .num { font-size: 40px; font-weight: 800; line-height: 1.1; }
+.stat .sub { font-size: 13px; opacity: .9; }
+.stat .deco { position: absolute; right: -22px; top: -22px; width: 96px; height: 96px;
+  border-radius: 50%; background: rgba(255,255,255,.18); }
+.stat .deco2 { position: absolute; right: 22px; top: 8px; width: 56px; height: 56px;
+  border-radius: 50%; background: rgba(255,255,255,.14); }
+.banner { margin-top: 18px; border-radius: 10px; color: #fff;
+  background: #cf222e; padding: 14px 18px; }
+.banner .t { font-size: 19px; font-weight: 700; }
+.banner .s { font-size: 14px; opacity: .95; }
+h2 { font-size: 16px; margin: 26px 0 10px; letter-spacing: .4px; }
+.bar { display: flex; height: 18px; border-radius: 9px; overflow: hidden;
+  background: #eaeef2; }
+.bar span { display: block; height: 100%; }
+.legend { color: #656d76; font-size: 13px; margin-top: 6px; }
+.grid { display: flex; gap: 20px; flex-wrap: wrap; }
+.grid > div { flex: 1 1 380px; }
+.attention { background: linear-gradient(160deg, #e9e7fb 0%, #fdeede 60%, #fde8d8 100%);
+  border-radius: 12px; padding: 18px 20px; }
+.attention ul { list-style: none; padding: 0; margin: 0; }
+.attention li { font-size: 14px; line-height: 1.55; padding: 10px 0;
+  border-bottom: 1px solid rgba(31,35,40,.12); }
+.attention li:last-child { border-bottom: none; }
+.status-row { display: flex; align-items: center; gap: 14px; padding: 12px 0;
+  border-bottom: 1px solid #d0d7de; }
+.status-row:last-child { border-bottom: none; }
+.icon { width: 44px; height: 44px; border-radius: 10px; color: #fff;
+  font-size: 22px; font-weight: 700; display: flex; align-items: center;
+  justify-content: center; flex-shrink: 0; }
+.status-row .num { font-size: 26px; font-weight: 800; }
+.status-row .cap { font-size: 12px; color: #656d76; letter-spacing: .4px;
+  text-transform: uppercase; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { background: #0b6fc4; color: #fff; text-align: left; padding: 9px 8px; }
+td { padding: 9px 8px; border-bottom: 1px solid #d0d7de; }
+tr:nth-child(even) td { background: #f6f8fa; }
+.pill { color: #fff; font-size: 12px; font-weight: 600; border-radius: 10px;
+  padding: 2px 8px; white-space: nowrap; }
+.chart { display: flex; align-items: flex-end; gap: 22px; height: 210px;
+  padding: 10px 8px 0; border-bottom: 2px solid #d0d7de; }
+.chart-col { flex: 1; display: flex; flex-direction: column; align-items: center;
+  justify-content: flex-end; height: 100%; }
+.chart-val { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+.chart-bar { width: 52px; border-radius: 6px 6px 0 0; }
+.chart-label { font-size: 12px; color: #656d76; margin-top: 8px; text-align: center; }
+ul.plain { font-size: 14px; line-height: 1.6; padding-left: 20px; }
+footer { color: #656d76; font-size: 12px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="page">
+<p class="eyebrow">ONBOARDING STATUS</p>
+<h1>Onboarding status — Acme Energy (Enterprise)</h1>
+<p class="meta">Target go-live: 2026-11-20 &middot; Status as of 2026-11-14</p>
+<div class="cards">
+<div class="stat" style="background:linear-gradient(135deg,#2f7cf6,#5aa2ff)">
+<div class="deco"></div><div class="deco2"></div>
+<div class="label">Progress</div><div class="num">33%</div>
+<div class="sub">of milestones done</div></div>
+<div class="stat" style="background:linear-gradient(135deg,#9333ea,#b45cf0)">
+<div class="deco"></div><div class="deco2"></div>
+<div class="label">Milestones done</div><div class="num">2</div>
+<div class="sub">of 6 total</div></div>
+<div class="stat" style="background:linear-gradient(135deg,#e11d48,#f472b6)">
+<div class="deco"></div><div class="deco2"></div>
+<div class="label">Blocked</div><div class="num">1</div>
+<div class="sub">milestone(s) waiting on others</div></div>
+<div class="stat" style="background:linear-gradient(135deg,#ea580c,#fb923c)">
+<div class="deco"></div><div class="deco2"></div>
+<div class="label">Overdue</div><div class="num">1</div>
+<div class="sub">milestone(s) past due</div></div>
+</div>
+<div class="banner"><div class="t">Not ready for go-live</div>
+<div class="s">4 milestone(s) still open, 1 task(s) blocked, 1 check(s) failing.</div></div>
+<h2>Progress — 33% complete</h2>
+<div class="bar"><span style="width:33%;background:#2da44e"></span><span style="width:17%;background:#0969da"></span><span style="width:33%;background:#d0d7de"></span><span style="width:17%;background:#cf222e"></span></div>
+<p class="legend">2 done &middot; 1 in progress &middot; 2 not started &middot; 1 blocked &middot; 6 milestones total</p>
+<div class="grid">
+<div>
+<h2>What needs attention</h2>
+<div class="attention"><ul><li><strong>Blocked task (1)</strong><br>Open firewall port 443 to webhook host — owner: Customer IT<br>Blocked by: Customer firewall rule pending</li><li><strong>Overdue milestone (1)</strong><br>Data migration — due 2026-11-12 (2 days overdue)</li><li><strong>Failing check (1)</strong><br>Webhook delivers test event</li></ul></div>
+</div>
+<div>
+<h2>Onboarding status</h2>
+<div class="status-row"><div class="icon" style="background:#0969da">&cir;</div>
+<div><div class="num">2</div>
+<div class="cap">Not started (in queue)</div></div></div>
+<div class="status-row"><div class="icon" style="background:#d29922">&#9684;</div>
+<div><div class="num">4</div>
+<div class="cap">Incomplete milestones</div></div></div>
+<div class="status-row"><div class="icon" style="background:#cf222e">!</div>
+<div><div class="num">1</div>
+<div class="cap">Past due</div></div></div>
+</div>
+</div>
+<div class="grid">
+<div>
+<h2>Milestones</h2>
+<table>
+<tr><th>Milestone</th><th>Status</th><th>Due</th><th>Notes</th></tr>
+<tr><td>Tenant provisioned</td><td><span class="pill" style="background:#2da44e">Done</span></td><td>2026-11-03</td><td></td></tr><tr><td>SSO / SAML configured</td><td><span class="pill" style="background:#2da44e">Done</span></td><td>2026-11-06</td><td></td></tr><tr><td>Data migration</td><td><span class="pill" style="background:#0969da">In progress</span></td><td>2026-11-12</td><td><span style="color:#cf222e">Overdue by 2 days</span></td></tr><tr><td>Integration: CRM webhook</td><td><span class="pill" style="background:#cf222e">Blocked</span></td><td>2026-11-13</td><td><span style="color:#cf222e">Waiting on someone else</span></td></tr><tr><td>User training</td><td><span class="pill" style="background:#6e7781">Not started</span></td><td>2026-11-17</td><td></td></tr><tr><td>Go-live</td><td><span class="pill" style="background:#6e7781">Not started</span></td><td>2026-11-20</td><td></td></tr>
+</table>
+</div>
+<div>
+<h2>Milestones by status</h2>
+<div class="chart"><div class="chart-col"><div class="chart-val">2</div><div class="chart-bar" style="height:140px;background:#2da44e"></div><div class="chart-label">Done</div></div><div class="chart-col"><div class="chart-val">1</div><div class="chart-bar" style="height:70px;background:#0969da"></div><div class="chart-label">In progress</div></div><div class="chart-col"><div class="chart-val">2</div><div class="chart-bar" style="height:140px;background:#6e7781"></div><div class="chart-label">Not started</div></div><div class="chart-col"><div class="chart-val">1</div><div class="chart-bar" style="height:70px;background:#cf222e"></div><div class="chart-label">Blocked</div></div></div>
+</div>
+</div>
+<h2>What still needs to happen</h2><ul class="plain"><li>Data migration</li><li>Integration: CRM webhook</li><li>User training</li><li>Go-live</li><li>Check failing: Webhook delivers test event</li></ul>
+<h2>Findings</h2>
+<ul class="plain"><li>Integration: CRM webhook is blocked on the customer side (Customer firewall rule pending) and gates go-live.</li><li>Data migration is overdue by 2 days; confirm the work finished before re-running the related checks.</li><li>1 failing check: Webhook delivers test event.</li></ul>
+<footer>Generated by saas-onboarding-automation (Python, standard library only).</footer>
+</div>
+</body>
+</html>

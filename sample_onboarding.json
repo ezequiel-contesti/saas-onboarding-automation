@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "name": "SSO login succeeds for test user",
+      "status": "pass"
+    },
+    {
+      "name": "Webhook delivers test event",
+      "status": "fail"
+    },
+    {
+      "name": "Migration row counts match",
+      "status": "pass"
+    }
+  ],
+  "customer": "Acme Energy",
+  "kickoff": "2026-11-02",
+  "milestones": [
+    {
+      "due": "2026-11-03",
+      "name": "Tenant provisioned",
+      "status": "done"
+    },
+    {
+      "due": "2026-11-06",
+      "name": "SSO / SAML configured",
+      "status": "done"
+    },
+    {
+      "due": "2026-11-12",
+      "name": "Data migration",
+      "status": "in_progress"
+    },
+    {
+      "blocked_by": "Customer firewall rule pending",
+      "due": "2026-11-13",
+      "name": "Integration: CRM webhook",
+      "status": "blocked"
+    },
+    {
+      "due": "2026-11-17",
+      "name": "User training",
+      "status": "not_started"
+    },
+    {
+      "due": "2026-11-20",
+      "name": "Go-live",
+      "status": "not_started"
+    }
+  ],
+  "plan": "Enterprise",
+  "target_go_live": "2026-11-20",
+  "tasks": [
+    {
+      "milestone": "Tenant provisioned",
+      "name": "Create tenant",
+      "owner": "Implementation",
+      "status": "done"
+    },
+    {
+      "milestone": "SSO / SAML configured",
+      "name": "Validate SAML metadata",
+      "owner": "Implementation",
+      "status": "done"
+    },
+    {
+      "due": "2026-11-12",
+      "milestone": "Data migration",
+      "name": "Import 12k accounts",
+      "owner": "Implementation",
+      "status": "in_progress"
+    },
+    {
+      "blocked_by": "Customer firewall rule pending",
+      "due": "2026-11-13",
+      "milestone": "Integration: CRM webhook",
+      "name": "Open firewall port 443 to webhook host",
+      "owner": "Customer IT",
+      "status": "blocked"
+    }
+  ]
+}
