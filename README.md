@@ -11,6 +11,8 @@ against my own notes. It catches the blocker a tired human misses — the
 integration waiting on a customer firewall rule, or the migration that
 quietly went overdue.
 
+Demo video (94 s): https://youtu.be/oTeflhP-T4s
+
 ## Features
 
 - Milestone progress: counts and percentage, overdue milestones flagged
