@@ -1,7 +1,5 @@
 # saas-onboarding-automation
 
-A second pair of eyes for a SaaS go-live.
-
 A small Python tool that reads a customer onboarding plan (JSON) and reports
 what an implementation engineer needs before a go-live: which milestones are
 done, which tasks are blocked or overdue, what is still missing, and a short
