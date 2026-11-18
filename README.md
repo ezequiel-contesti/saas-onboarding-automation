@@ -82,6 +82,13 @@ Findings to compare against your own review
   - 1 failing check: Webhook delivers test event.
 ```
 
+The same report as a visual dashboard for CSMs and executives — stat cards,
+readiness banner, what needs attention, status summary, milestones table,
+and a bar chart:
+
+- [sample_report.html](sample_report.html) — generated with
+  `python3 onboarding.py sample_onboarding.json --as-of 2026-11-14 --html --output sample_report.html`
+
 ## Tests
 
 ```bash
