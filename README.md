@@ -89,6 +89,8 @@ and a bar chart:
 - [sample_report.html](sample_report.html) — generated with
   `python3 onboarding.py sample_onboarding.json --as-of 2026-11-14 --html --output sample_report.html`
 
+![Visual dashboard report](sample_report.png)
+
 ## Tests
 
 ```bash

@@ -259,7 +259,7 @@ def format_html(report):
             f"<tr><td>{esc(m['name'])}</td>"
             f'<td><span class="pill" style="background:{color}">'
             f"{STATUS_LABELS[status]}</span></td>"
-            f"<td>{esc(m['due'])}</td><td>{note}</td></tr>"
+            f"<td style=\"white-space:nowrap\">{esc(m['due'])}</td><td>{note}</td></tr>"
         )
     attention = []
     for t in report.blocked_tasks:
